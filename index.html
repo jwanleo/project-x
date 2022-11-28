@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Libraries-->
+        <!--Boorsrtap-->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <!--Boorsrtap-->
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet"> 
+        <style>
+            body{
+                font-family: 'Almarai', sans-serif;
+            }
+            .bg-primary {
+                background: #811538 !important;
+                color: white;
+            }
+
+            .bg-secondary {
+                background: #811538 !important;
+                color: white;
+            }
+
+            #header-background{
+                background-image: url("img/pattern.png");
+            }
+            #header{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+                border-bottom: solid 20px #5b0d25;
+            }
+            #logo-header{
+                position: absolute;
+                z-index: 999;
+                left: 100px;
+                top: 60px;
+            }
+            #logo-img{
+                height: 300px;
+                -webkit-filter: drop-shadow(5px 5px 30px #222);
+                filter: drop-shadow(5px 5px 30px #222);
+            }
+        </style>
+</head>
+<body>
+    <div id="logo-header">
+        <img src="img/logo.png" alt="" id="logo-img">
+    </div>
+    <div id="header" style="height: 20rem;" class="bg-primary">
+        <div id="header-background" style="width: 100% ; height: 100%; " >
+                <div class="p-5" style="direction: rtl; font-size: 50px; margin-right:100px; color:white; ">
+                    <h1 style="font-size: 70px; font-weight: 800; ">كأس</h1>
+                    <h1 style="font-size: 90px; font-weight: 800; ">العالم</h1>
+                </div>
+        </div>
+    </div>
+    <!--qatar word-->
+    <div class="d-flex justify-content-center" style="margin-top: 30px;">
+    <img src="img/qatar-word.png" alt="" style="width: 400px;">
+    </div>
+    <!--//qatar word//-->
+
+    <!--main content-->
+    <div class="container" style="margin-top: 50px ;"  >
+    <!--standing-->
+        <div class="p-5 mt-1">
+            <!--title-->
+            <div class="row" style="direction:rtl ;" >
+                <h1><b>المجموعات</b></h1>
+                <hr>
+            </div>
+            <!--//title//-->
+        </div>
+
+        <div class="row" id="standing">
+            <!--standing coloum-->
+            <div class="col-sm-6 mb-4">
+                <div class="card-header shadow border-none">
+                    <div class="card- bg-primary" style="text-align:center ;">
+                      <b>Group A</b>
+                    </div>
+                    <div class="row m-0 bg-secondary">
+                        <div class="col-sm-4" style="text-align:center ;">team</div>
+                        <div class="col-sm-2" style="text-align:center ;">W</div>
+                        <div class="col-sm-2" style="text-align:center ;">L</div>
+                        <div class="col-sm-2" style="text-align:center ;">D</div>
+                        <div class="col-sm-2" style="text-align:center ;">Pts</div>
+                    </div>
+                    <!--TEAMS-->
+                    <ul class="list-group list-group-flush">
+
+                        <!--Team-->
+                        <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                            <span class="flag">
+                                <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                            </span>
+                            <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                            </div>
+                            <div class="col-sm-2" style="text-align:center ;">2</div>
+                            <div class="col-sm-2" style="text-align:center ;">1</div>
+                            <div class="col-sm-2" style="text-align:center ;">0</div>
+                            <div class="col-sm-2" style="text-align:center ;">7</div>
+                        </div>
+                    </li>
+                        <!--//Team//-->
+                        <!--Team-->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                                <span class="flag">
+                                    <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                                </span>
+                                <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                                </div>
+                                <div class="col-sm-2" style="text-align:center ;">2</div>
+                                <div class="col-sm-2" style="text-align:center ;">1</div>
+                                <div class="col-sm-2" style="text-align:center ;">0</div>
+                                <div class="col-sm-2" style="text-align:center ;">7</div>
+                            </div>
+                        </li>
+                            <!--//Team//-->
+                            
+                                                    <!--Team-->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                                <span class="flag">
+                                    <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                                </span>
+                                <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                                </div>
+                                <div class="col-sm-2" style="text-align:center ;">2</div>
+                                <div class="col-sm-2" style="text-align:center ;">1</div>
+                                <div class="col-sm-2" style="text-align:center ;">0</div>
+                                <div class="col-sm-2" style="text-align:center ;">7</div>
+                            </div>
+                        </li>
+                            <!--//Team//-->
+
+                                                    <!--Team-->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                                <span class="flag">
+                                    <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                                </span>
+                                <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                                </div>
+                                <div class="col-sm-2" style="text-align:center ;">2</div>
+                                <div class="col-sm-2" style="text-align:center ;">1</div>
+                                <div class="col-sm-2" style="text-align:center ;">0</div>
+                                <div class="col-sm-2" style="text-align:center ;">7</div>
+                            </div>
+                        </li>
+                            <!--//Team//-->
+
+
+
+                    </ul>
+                    <!--//TEAMS//-->
+                  </div>
+            </div>
+             <!--//standing coloum//-->
+
+            <!--standing coloum-->
+            <div class="col-sm-6 mb-4">
+                <div class="card-header shadow border-none">
+                    <div class="card- bg-primary" style="text-align:center ;">
+                      <b>Group A</b>
+                    </div>
+                    <div class="row m-0 bg-secondary">
+                        <div class="col-sm-4" style="text-align:center ;">team</div>
+                        <div class="col-sm-2" style="text-align:center ;">W</div>
+                        <div class="col-sm-2" style="text-align:center ;">L</div>
+                        <div class="col-sm-2" style="text-align:center ;">D</div>
+                        <div class="col-sm-2" style="text-align:center ;">Pts</div>
+                    </div>
+                    <!--TEAMS-->
+                    <ul class="list-group list-group-flush">
+
+                        <!--Team-->
+                        <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                            <span class="flag">
+                                <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                            </span>
+                            <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                            </div>
+                            <div class="col-sm-2" style="text-align:center ;">2</div>
+                            <div class="col-sm-2" style="text-align:center ;">1</div>
+                            <div class="col-sm-2" style="text-align:center ;">0</div>
+                            <div class="col-sm-2" style="text-align:center ;">7</div>
+                        </div>
+                    </li>
+                        <!--//Team//-->
+                        <!--Team-->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                                <span class="flag">
+                                    <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                                </span>
+                                <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                                </div>
+                                <div class="col-sm-2" style="text-align:center ;">2</div>
+                                <div class="col-sm-2" style="text-align:center ;">1</div>
+                                <div class="col-sm-2" style="text-align:center ;">0</div>
+                                <div class="col-sm-2" style="text-align:center ;">7</div>
+                            </div>
+                        </li>
+                            <!--//Team//-->
+                            
+                                                    <!--Team-->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                                <span class="flag">
+                                    <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                                </span>
+                                <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                                </div>
+                                <div class="col-sm-2" style="text-align:center ;">2</div>
+                                <div class="col-sm-2" style="text-align:center ;">1</div>
+                                <div class="col-sm-2" style="text-align:center ;">0</div>
+                                <div class="col-sm-2" style="text-align:center ;">7</div>
+                            </div>
+                        </li>
+                            <!--//Team//-->
+
+                                                    <!--Team-->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-4 d-flex justify-content-center align-itmes-center " style="text-align:center ;">
+                                <span class="flag">
+                                    <img class="rounded-circle" style="width: 30px;height: 30px;;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" alt="">
+                                </span>
+                                <h5 style="margin: auto 4px" ><b>KSA</b></h5>
+                                </div>
+                                <div class="col-sm-2" style="text-align:center ;">2</div>
+                                <div class="col-sm-2" style="text-align:center ;">1</div>
+                                <div class="col-sm-2" style="text-align:center ;">0</div>
+                                <div class="col-sm-2" style="text-align:center ;">7</div>
+                            </div>
+                        </li>
+                            <!--//Team//-->
+
+
+
+                    </ul>
+                    <!--//TEAMS//-->
+                  </div>
+            </div>
+             <!--//standing coloum//-->
+
+        </div>
+
+    <!--//standing//-->
+    </div>
+    <!--//main content//-->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.2.0/axios.min.js"></script>
+<script>
+    const token = "42e10a200b05450ebfd0d0867b49c140"
+    const baseUrl ="https://api.football-data.org/v4/competitions/2000"
+    function getStandings()
+    {
+        const url = `${baseUrl}/standings`
+        axios.get(url,{
+            headers:{
+                "X-Auth-Token": token
+            }
+        })
+        .then((response) => {
+            console.log(response.data)
+            const standing = response.data.standing
+        })
+    }
+    getStandings()
+</script>
+</html>
